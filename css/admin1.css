@@ -1,0 +1,525 @@
+
+/*
+  Author:soundarya.D.R;
+  Theme:Food Order Website Admin;
+  */
+
+  *{
+      margin: 0 ;
+      padding: 0 ;
+      font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+   .wrapper{
+          
+          padding: 1%;
+          width:80%;
+          margin: 0 auto;
+          
+   }
+
+   .color{
+    color: white;
+  }
+
+  .font{
+    font-size: 20px;
+    color:white;
+  }
+
+
+   .text-center {
+          text-align: center;
+   }
+
+   .clearfix{
+    float: none;
+    clear: both;
+   }
+
+   .tbl-full {
+    width: 100%;
+     height: 50%;
+
+
+   }
+   .tbl-30{
+    width: 50%;
+    height: 50%;
+    
+
+    
+
+    
+   }
+
+   
+
+   table tr th {
+    border-bottom: 2px solid black;
+    padding: 2%;
+    text-align: left;
+   }
+
+   table tr td {
+    padding: 1%;
+   }
+
+   .btn-primary {
+    background-color: skyblue;
+
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+   }
+
+   
+  .btn-primary:hover{
+    background-color: darkblue;
+
+  }
+  .admin{
+    background-color:violet;
+    padding: 1%;
+    color: white;
+    text-decoration:none ;
+    border-radius: 10px;
+    font-weight:bold ;
+  }
+  .admin:hover{
+    background-color: purple;
+  }
+
+
+  .btn-secondary {
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+   }
+
+   
+  .btn-secondary:hover{
+    background-color: green;
+
+  }
+  
+
+  .btn-danger {
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+   }
+
+   
+  .btn-danger:hover{
+    background-color: red;
+
+
+  }
+  
+  .success {
+    color: green;
+    font-size:23px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+
+  }
+  .error {
+    color: red;
+    font-size:23px;
+    font-weight: bold; 
+
+  }
+  
+
+   /* css for Menu */
+
+  
+   
+   
+   .menu ul {
+   	   list-style-type:none;
+       
+  
+   }
+
+   .menu li {
+   	   display: inline;
+   	   padding: 1%;
+       margin: 2%;
+       
+
+   }
+
+   .menu ul li a {
+   	  text-decoration: none;
+   	  font-weight: bold;
+   	  color: white;
+      font-size: 23px;
+
+   }
+
+.menu ul li a:hover {
+	
+  background: black;
+
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+/* css for main content */
+
+.main-content {
+	
+	
+	padding: 5% 0;
+
+}
+
+.col-4 {
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+  border-radius: 10px;
+  
+    
+}
+
+   
+   .home-bg
+   {
+    background-image: url(../images/bg30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0%;
+
+   }
+
+
+   .admin-bg
+   {
+    background-image: url(../images/bg26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+  }
+
+  
+ 
+   
+   .category-bg
+   {
+    background-image: url(../images/bg8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+
+   
+
+   .food-bg
+   {
+    background-image: url(../images/bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+
+   }
+
+   
+
+   .order-bg
+   {
+    background-image: url(../images/bg27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+
+   .update-admin
+   {
+    background-image: url(../images/bg6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+
+   .add-category
+   {
+    background-image: url(../images/bg29.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+
+   .update-category
+   {
+    background-image: url(../images/bg31.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+.login-bg
+   {
+    background-image: url(../images/bg21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1;
+
+   }
+   .add-food
+   {
+    background-image: url(../images/bg27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+  
+   .change-password
+   {
+    background-image: url(../images/bg24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+   
+   .update-order
+   {
+    background-image: url(../images/bg25.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+
+   }
+.clr1{
+  color:darkgreen;
+
+}
+.color1{
+  color: dodgerblue;
+}
+
+.color3{
+  color:ghostwhite;
+}
+.color5{
+  color: black;
+}
+.btn1 {
+  background-color: darkgreen;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.btn1:hover {
+  opacity: 1;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.btn2:hover {
+  opacity: 1;
+}
+
+
+
+
+.add-admin
+   {
+    background-image: url(../images/bg11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+   }
+
+.login-box{
+  width: 280px;
+  padding: 8px;
+  margin: 1%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:white;
+}
+.log1 {
+  width: 280px;
+  padding: 8px;
+  margin: 1%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:black;
+}
+
+
+.login-box1{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 280px;
+
+  
+
+}
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+.input-container1 {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  
+}
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field1 {
+  width: 50%;
+  padding: 8px;
+  outline: none;
+}
+.input-field1:focus {
+  border: 2px solid dodgerblue;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.clr{
+  color:dodgerblue;
+
+}
+/* css for login */
+.login {
+  width: 20%;
+  border: 1px solid grey;
+  
+  margin: 10% 60%;
+  padding: 2%;
+}
+
+.btn-login {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius:20px;
+}
+
+.btn-login:hover {
+  opacity: 1;
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
